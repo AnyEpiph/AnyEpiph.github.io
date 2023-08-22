@@ -1,12 +1,20 @@
 # 写在 the very beginning
-
-Date: 2023/08/22
+---
+layout: post
+title: "测试页面"
+date:   2023-08-20
+tags: [test]
+comments: false
+author: AnyEpiph
+---
 
 *我的时间是长河里的水*
 
 *即使在河滩上捡不到红玛瑙*
 
 *至少也要挑一块好看的鹅卵石留下*
+
+<!-- more -->
 
 构建这个Blog是昨天晚上突发奇想的事情，花了两个小时在网上找了一个模板，翻出尘封已久的Github账号部署了上去。至于为什么要写这样一个Blog，大概是出于以下的一些契机。
 
