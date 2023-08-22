@@ -36,7 +36,7 @@ Fig.1  若夫淫雨霏霏
 （黑龙江畔，对岸是瑷珲条约割去的故土）
 
 ![Fig.2 至若春和景明
-（路旁的湿地，远山是小兴安岭的北麓）](images/2023-08-22-the_very_beginning/Fig2.jpg)
+（路旁的湿地，远山是小兴安岭的北麓）](https://raw.githubusercontent.com/anyepiph/anyepiph.github.io/master/images/2023-08-22-the_very_beginning/caee158a2e0ed0106a268da20bd3f23.jpg)
 
 Fig.2 至若春和景明
 （路旁的湿地，远山是小兴安岭的北麓）
