@@ -60,8 +60,8 @@ $$
 
 $$
 \begin{aligned}
-E\left[X(s) &#124 X(t)=B \right]&=Bs/t\\
-Var\left[X(s) &#124 X(t)=B \right]&=s(t-s)/t.\\
+E\left[X(s) \vert X(t)=B \right]&=Bs/t\\
+Var\left[X(s) \vert X(t)=B \right]&=s(t-s)/t.\\
 Cov\left[X(s),X(t)\right] &= Cov\left[X(s),X(s)\right]=s
 \end{aligned}
 \tag{8.1.4}
