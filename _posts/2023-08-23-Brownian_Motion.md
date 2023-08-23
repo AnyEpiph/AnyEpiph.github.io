@@ -19,7 +19,7 @@ author: AnyEpiph
 
 正巧最近在研究一些和布朗运动有关的随机过程，查阅了不少资料，但是关于布朗运动及其应用的认识还是云遮雾罩。今天翻看之前赵晓波老师主讲的《高级运筹学II》的教材*，发现书中第8章刚好讲到了这部分知识，只是碍于课程安排，当时《高级运筹学II》课程并没有展开讲解这一章节。接下来正好可以趁着自学的机会，做一些笔记。
 
-* Sheldon M. Ross (1997), *Stochastic Processes* (2nd Edition), John Wiley & Sons.
+\* Sheldon M. Ross (1997), *Stochastic Processes* (2nd Edition), John Wiley & Sons.
 
 ** 本文中的公式为了便于参阅原书，和原书采用的是同样的编号，因此可能有跳号的可能。
 
@@ -27,20 +27,20 @@ author: AnyEpiph
 
 ### 8.1.1. Definition
 
-随机游走的醉汉是我们再熟悉不过的随机过程模型。当然，最原始的随机游走模型是一个离散的随机过程。不过，假如我们将这个过程细分到很小的时间区间 $\Delta t$内，并假设醉汉在这一小段时间内只能以等概率游走 $\pm \Delta x$的小段距离，那么在时间 $t$的时候，醉汉的位置为
+随机游走的醉汉是我们再熟悉不过的随机过程模型。当然，最原始的随机游走模型是一个离散的随机过程。不过，假如我们将这个过程细分到很小的时间区间 $\Delta t$内，并假设醉汉在这一小段时间内只能以等概率游走 $$\pm \Delta x$$的小段距离，那么在时间 $$t$$的时候，醉汉的位置为
 
 $$
 X(t)=\Delta x \left( X_1 + \dots +X_{[t/\Delta t]}\right).\tag{8.1.1}
 $$
 
-可以很容易地计算出$X(t)$的期望和方差是
+可以很容易地计算出 $$X(t)$$的期望和方差是
 
 $$
 E[X(t)]=0, \quad Var[X(t)]=\left(\Delta x\right)^2 \left[\frac{t}{\Delta t}\right].
 \tag{8.1.2}
 $$
 
-如果我们想让 $Var[X(t)]$在 $\Delta t \rightarrow 0$的时候不是平凡的，很自然地我们需要让 $\Delta x = c \sqrt{\Delta t}$。于是我们发现，在这样的假设下，随机过程$X(t)$有以下的三点性质，我们定义
+如果我们想让 $$Var[X(t)]$$在 $$\Delta t \rightarrow 0$$的时候不是平凡的，很自然地我们需要让 $$\Delta x = c \sqrt{\Delta t}$$。于是我们发现，在这样的假设下，随机过程 $$X(t)$$有以下的三点性质，我们定义
 
 <aside>
 ➡️ **Definition of Brownian Motion Process:**
