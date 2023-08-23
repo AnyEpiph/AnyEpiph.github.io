@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "笔记 (01)：布朗运动与随机过程"
-date:   2023-08-22
+date:   2023-08-23
 tags: [Operations Research]
 comments: false
 author: AnyEpiph
@@ -42,9 +42,9 @@ $$
 
 如果我们想让 $$Var[X(t)]$$在 $$\Delta t \rightarrow 0$$的时候不是平凡的，很自然地我们需要让 $$\Delta x = c \sqrt{\Delta t}$$。于是我们发现，在这样的假设下，随机过程 $$X(t)$$有以下的三点性质，我们把具有这样性质的随机过程$X(t)$称为布朗运动过程（Brownian Motion Process），也叫维纳过程（Wiener Process）
 
-1. $$X(0)=0$$
+1. 初始值$$X(0)=0$$
    
-2. $$\left\\{ X(t), t\geq 0 \right\\}$$在任意时间段内都是稳定的独立增量 （stationary independent increments）
+2. $$\left\{ X(t), t\geq 0 \right\}$$在任意时间段内都是稳定的独立增量 （stationary independent increments）
    
 3. $$X(t)$$服从正态分布 $$\mathcal{N}\left(0,c^2 t\right)$$
 
@@ -56,7 +56,7 @@ $$
 
 2. 由于有独立增量性质，$$X(t)$$是一个马尔科夫过程
 
-由于稳定独立增量的性质，并且已知 $$f_t(x)$$恰好是正态分布 $$\mathcal{N}\left(0,c^2 t\right)$$的概率密度函数，我们可以轻松地写出 $$f_\{s\|t\} (x\|B)$$，进而求出 $$X(s),s \leq t$$的条件期望
+由于稳定独立增量的性质，并且已知 $$f_t(x)$$恰好是正态分布 $$\mathcal{N}\left(0,c^2 t\right)$$的概率密度函数，我们可以轻松地写出 $$f_{s|t} (x|B)$$，进而求出 $$X(s),s<t$$的条件期望
 
 $$
 \begin{aligned}
