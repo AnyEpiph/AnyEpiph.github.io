@@ -47,7 +47,7 @@ $$
 我们把具有这样性质的随机过程$X(t)$称为布朗运动过程（Brownian Motion Process），也叫维纳过程（Wiener Process）
 
 1. $X(0)=0$
-2. $\left\{ X(t), t\geq 0 \right\}$在任意时间段内都是稳定的独立增量 （stationary independent increments）
+2. $\left\\{ X(t), t\geq 0 \right\\}$在任意时间段内都是稳定的独立增量 （stationary independent increments）
 3. $X(t)$服从正态分布 $\mathcal{N}\left(0,c^2 t\right)$
 </aside>
 
@@ -58,7 +58,7 @@ $$
 1. $X(t)$处处连续，但是几乎处处不可微分
 2. 由于有独立增量性质，$X(t)$是一个马尔科夫过程
 
-由于稳定独立增量的性质，并且已知 $f_t(x)$恰好是正态分布 $\mathcal{N}\left(0,c^2 t\right)$的概率密度函数，我们可以轻松地写出 $f_{s|t} (x|B)$，进而求出 $X(s), s<t$的条件期望
+由于稳定独立增量的性质，并且已知 $f_t(x)$恰好是正态分布 $\mathcal{N}\left(0,c^2 t\right)$的概率密度函数，我们可以轻松地写出 $f_\{s|t\} (x|B)$，进而求出$ X(s), s<t $的条件期望
 
 $$
 \begin{aligned}
