@@ -1,7 +1,17 @@
-# 布朗运动与随机过程
+---
+layout: post
+title: "笔记 (01)：布朗运动与随机过程"
+date:   2023-08-22
+tags: [Operations Research]
+comments: false
+author: AnyEpiph
+---
 
-Tags: Operations Research
-Upload: No
+关于随机运动过程中布朗运动的自学笔记。
+
+（最后更新：2023年8月23日）
+
+<!-- more -->
 
 ## Prologues
 
