@@ -56,12 +56,12 @@ $$
 
 2. 由于有独立增量性质，$$X(t)$$是一个马尔科夫过程
 
-由于稳定独立增量的性质，并且已知 $$f_t(x)$$恰好是正态分布 $$\mathcal{N}\left(0,c^2 t\right)$$的概率密度函数，我们可以轻松地写出 $$f_{s|t} (x|B)$$，进而求出 $$X(s),s<t$$的条件期望
+由于稳定独立增量的性质，并且已知 $$f_t(x)$$恰好是正态分布 $$\mathcal{N}\left(0,c^2 t\right)$$的概率密度函数，我们可以轻松地写出 $$f_{s &#124 t} (x &#124 B)$$，进而求出 $$X(s),s<t$$的条件期望
 
 $$
 \begin{aligned}
-E\left[X(s) | X(t)=B \right]&=Bs/t\\
-Var\left[X(s) | X(t)=B \right]&=s(t-s)/t.\\
+E\left[X(s) &#124 X(t)=B \right]&=Bs/t\\
+Var\left[X(s) &#124 X(t)=B \right]&=s(t-s)/t.\\
 Cov\left[X(s),X(t)\right] &= Cov\left[X(s),X(s)\right]=s
 \end{aligned}
 \tag{8.1.4}
