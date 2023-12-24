@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "浮躁、拖延和逃避的三位一体"
+title: "[沉思] 浮躁、拖延和逃避的三位一体"
 date:   2023-12-20
-tags: [出世：沉思录]
+tags: [随笔]
 comments: false
 author: NKP
 ---
