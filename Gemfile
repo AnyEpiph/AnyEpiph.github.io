@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-source "https://mirrors.tuna.tsinghua.edu.cn/help/rubygems/"
+source "https://mirrors.tuna.tsinghua.edu.cn/rubygems"
 
 gem "jekyll-theme-chirpy", "~> 7.4", ">= 7.4.1"
 
